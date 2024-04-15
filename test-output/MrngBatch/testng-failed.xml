@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MrngBatch]">
+  <test thread-count="5" name="testngReports(failed)">
+    <classes>
+      <class name="apr3.SecondTestNGClass">
+        <methods>
+          <include name="admin"/>
+          <include name="SetUp"/>
+          <include name="tearDown"/>
+          <include name="leave"/>
+          <include name="pim"/>
+        </methods>
+      </class> <!-- apr3.SecondTestNGClass -->
+    </classes>
+  </test> <!-- testngReports(failed) -->
+</suite> <!-- Failed suite [MrngBatch] -->
